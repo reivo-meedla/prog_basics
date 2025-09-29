@@ -1,5 +1,5 @@
 """Math exercises."""
-
+import math
 
 def sum_and_difference(num_a: int, num_b: int) -> tuple:
     """Return the sum and difference of given variables num_a and num_b."""
@@ -22,37 +22,38 @@ def integer_division(num_a: int, num_b: int) -> int:
 
 def powerful_operations(num_a: int, num_b: int) -> tuple:
     """Return the product of given variables, num_a to the power of num_b and the remainder of division of variables."""
-    # Write your code here
+    multiply_numbers = num_a * num_b
+    power = num_a ** num_b
+    remainder = num_a % num_b
     return multiply_numbers, power, remainder
 
 
 def find_average(num_a: int, num_b: int) -> float:
     """Return the average of given variables."""
-    # Write your code here
+    average = (num_a + num_b) / 2
     return average
 
 
 def area_of_a_circle(radius: float) -> float:
     """Calculate and return the area of a circle."""
-     round(number, ndigits)
+    circle_area = round(math.pi * radius ** 2, 2)
     return circle_area
-
 
 def area_of_an_equilateral_triangle(side_length: float) -> int:
     """Calculate and return the area of an equilateral triangle."""
-    # Write your code here
+    triangle_area = round(math.sqrt(3) / 4 * side_length ** 2)
     return triangle_area
 
 
 def calculate_discriminant(a: int, b: int, c: int) -> int:
     """Calculate discriminant with given variables and return the result."""
-    # Write your code here
+    discriminant = b ** 2 - 4 * (a * c)
     return discriminant
 
 
 def calculate_hypotenuse_length(a: int, b: int) -> float:
     """Return the length of hypotenuse when the lengths of the catheti are given."""
-    # Write your code here
+    b = math.sqrt(c ** 2 - a **)
     return c
 
 
