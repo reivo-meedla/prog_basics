@@ -23,10 +23,9 @@ def sum_of_even_numbers(n: int) -> int:
     print(sum_of_even_numbers(0)) => 0
     """
     sum = 0
-    even = 0
-    while even <= n:
-        sum += even
-        even += 2
+    for num in range(n+1):
+        if num % 2 == 0:
+            sum += num
     return sum
 
 

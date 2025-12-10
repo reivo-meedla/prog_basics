@@ -51,7 +51,7 @@ def calculate_discriminant(a: int, b: int, c: int) -> int:
     return discriminant
 
 
-def calculate_hypotenuse_length(a: int, b: int) -> float:
+def calculate_hypotenuse_length(a: float, b: float) -> float:
     """Return the length of hypotenuse when the lengths of the catheti are given."""
     b = math.sqrt(c ** 2 - a **)
     return c
@@ -59,5 +59,5 @@ def calculate_hypotenuse_length(a: int, b: int) -> float:
 
 def calculate_cathetus_length(a: int, c: int) -> float:
     """Return the length of cathetus when the lengths of the second cathetus and hypotenuse are given."""
-    # Write your code here
+    b = math.sqrt(a ** 2 + b ** 2)
     return b
